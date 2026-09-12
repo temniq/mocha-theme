@@ -1,1 +1,55 @@
-/* yes */
+/**
+ * @name Mocha
+ * @author Temniq
+ * @version 1.0.0
+ * @description yes
+ * @source https://github.com/temniq/mocha-theme
+ * @website https://temniq.github.io/mocha-theme/
+ */
+@import url("https://temniq.github.io/mocha-theme/mocha-base.css");
+:root {
+  --mocha-bg-image:   none;
+  --mocha-bg-blur:    0px;
+  --mocha-bg-dim:     0.6;       
+  --mocha-bg-size:    cover;
+  --mocha-bg-pos:     center;
+  --mocha-void:       #0a0810;   
+  --mocha-darkest:    #0e0c12;   
+  --mocha-dark:       #131018;   
+  --mocha-mid:        #1a1620;   
+  --mocha-surface:    #211d28;   
+  --mocha-overlay:    #2a2433;   
+  --mocha-float:      #322d3d;   
+  --mocha-rose:       #b85c78;
+  --mocha-rose-bright:#c4607f;
+  --mocha-rose-dim:   #8a4459;
+  --mocha-rose-soft:  rgba(184, 92, 120, 0.14);
+  --mocha-rose-glow:  rgba(184, 92, 120, 0.07);
+  --mocha-rose-pop:   rgba(184, 92, 120, 0.22);
+  --mocha-text-bright:  #ede5ee;
+  --mocha-text:         #c8bcd0;
+  --mocha-text-muted:   #7e7288;
+  --mocha-text-faint:   #3d3647;
+  --mocha-glass:        rgba(13, 11, 18, 0.58);
+  --mocha-glass-light:  rgba(30, 26, 38, 0.62);
+  --mocha-glass-border: rgba(184, 92, 120, 0.10);
+  --mocha-glass-blur:   18px;
+  --mocha-grain-opacity: 0.035;
+  --mocha-shadow-sunken:  0 1px 3px rgba(0,0,0,0.45);
+  --mocha-shadow-surface: 0 4px 16px rgba(0,0,0,0.38), 0 1px 4px rgba(0,0,0,0.28);
+  --mocha-shadow-raised:  0 8px 28px rgba(0,0,0,0.48), 0 2px 8px rgba(0,0,0,0.32);
+  --mocha-shadow-float:   0 16px 48px rgba(0,0,0,0.58), 0 4px 16px rgba(0,0,0,0.4), 0 0 0 1px rgba(184,92,120,0.10);
+  --mocha-shadow-peak:    0 24px 64px rgba(0,0,0,0.7),  0 8px 24px rgba(0,0,0,0.5);
+  --mocha-r-xs:   6px;
+  --mocha-r-sm:   10px;
+  --mocha-r-md:   16px;
+  --mocha-r-lg:   22px;
+  --mocha-r-xl:   30px;
+  --mocha-r-pill: 999px;
+  --mocha-ease:         cubic-bezier(0.34, 1.04, 0.64, 1);  
+  --mocha-ease-out:     cubic-bezier(0.16, 1, 0.3, 1);
+  --mocha-ease-in:      cubic-bezier(0.4, 0, 1, 1);
+  --mocha-duration-fast:  160ms;
+  --mocha-duration:       260ms;
+  --mocha-duration-slow:  380ms;
+}
